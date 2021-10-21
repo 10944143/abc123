@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小考</title>
+  <link rel="stylesheet" type="text/css" href="10944143.css">
+</head>
+
+<body>
+  <form method="POST" action="mailto:a0908155665@gmail.com" exportparts="text/plain">
+    <table>
+      <caption>個人資料</caption>
+      <tr>
+        <td>姓名</td>
+        <td>
+          <input type="text" name="n">
+        </td>
+        <td>性別</td>
+        <td>
+          <input type="radio" name="sex" value="男">男
+          <input type="radio" name="sex" value="女">女
+        </td>
+      </tr>
+      <tr>
+        <td>生日</td>
+        <td colspan="3">
+          <input type="date" name="date">
+        </td>
+      </tr>
+      <tr>
+        <td>手機(10碼)</td>
+        <td>
+          <input type="text" name="phone1">
+        </td>
+        <td>市內電話</td>
+        <td>
+          <input type="text" name="phone2">
+        </td>
+      </tr>
+      <tr>
+        <td>email</td>
+        <td colspan="3">
+          <input type="email" name="email">
+        </td>
+      </tr>
+      <tr>
+        <td>地址</td>
+        <td colspan="3">
+          <select size="1" name="d1">
+            <option>台北市</option>
+            <option>新北市</option>
+            <option>桃園市</option>
+          </select>
+          <input type="text" name="a" size="35">
+        </td>
+      </tr>
+      <tr>
+        <td>備註</td>
+        <td>
+          <textarea rows="2"></textarea>
+        </td>
+      </tr>
+    </table>
+    <input type="submit" name="submit" class="a">
+    <input type="reset" name="reset" class="a">
+  </form>
+</body>
+
+</html>
